@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   resources :events
-  #root 'welcome#index'
+  root 'welcome#index'
   get 'welcome/index'
 
   get 'welcome/login'
