@@ -203,7 +203,7 @@ DEPENDENCIES
   fullcalendar-rails
   jbuilder (~> 2.5)
   momentjs-rails
-  pg
+  pg (~> 0.20)
   puma (~> 3.7)
   rails (~> 5.1.3)
   rails_12factor
