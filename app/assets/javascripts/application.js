@@ -10,6 +10,7 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require jquery-migrate-1.2.1
 //= require rails-ujs
 //= require turbolinks
 //= require jquery
