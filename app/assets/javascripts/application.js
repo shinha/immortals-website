@@ -12,14 +12,14 @@
 //
 //= require rails-ujs
 //= require turbolinks
-//= require bootstrap-sprockets
 //= require jquery
-//= require bootstrap.min
 //= require jquery.parallax
 //= require smoothscroll
 //= require wow.min
 //= require custom
 //= require moment
+//= require bootstrap.min
+//= require bootstrap-sprockets
 //= require fullcalendar
 //= require daterangepicker
 //= require_tree .
