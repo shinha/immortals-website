@@ -203,6 +203,7 @@ footer {
     text-transform: uppercase;
     line-height: 40px;
     transition: all 0.4s ease-in-out;
+    
 }
 
 .custom-navbar .nav li a:hover {
@@ -408,6 +409,7 @@ td{
   line-height: 1.42857143;
   border: none;
   border-radius: 0px;
+
 }
 .nav-tabs > li > a:hover {
   background-color: transparent;
@@ -423,6 +425,12 @@ td{
 }
 .tab-content {
   padding-top: 20px;
+}
+
+#portfolio-nav{
+  position: relative;
+  display: block;
+  padding: 5px 8px;
 }
 
 
