@@ -202,6 +202,7 @@ DEPENDENCIES
   font-awesome-sass (~> 4.6.2)
   fullcalendar-rails
   jbuilder (~> 2.5)
+  jquery-rails
   momentjs-rails
   pg (~> 0.20)
   puma (~> 3.7)

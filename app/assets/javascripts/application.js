@@ -10,12 +10,12 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require rails-ujs
+
 //= require turbolinks
 //= require jquery
+//= require jquery_ujs
 //= require jquery.parallax
 //= require jquery-migrate-1.2.1
-//= require smoothscroll
 //= require bootstrap.min
 //= require wow.min
 //= require custom
@@ -23,4 +23,3 @@
 //= require bootstrap-sprockets
 //= require fullcalendar
 //= require daterangepicker
-//= require_tree .
