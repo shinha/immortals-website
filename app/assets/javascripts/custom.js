@@ -21,6 +21,29 @@ $(window).scroll(function() {
 -------------------------------------------*/
 $(document).ready(function() {
 
+  /*Add pause/play functionality for carousel manually
+    ------------------------------------------*/
+    var move = true;
+    img_array= new Array('https://cdn3.iconfinder.com/data/icons/buttons/512/Icon_4-512.png','https://cdn4.iconfinder.com/data/icons/media-player-icons/80/Media_player_icons-12-256.png');
+    var i=0;
+    $("#myBtn").click(function(){
+      i++;
+      document.getElementById("myImg").src=img_array[i];
+      if(i==img_array.length-1) {
+        i=-1;
+      }
+    
+      if (move){
+        $("#myCarousel").carousel("pause");
+        move = false;
+      }
+      else{
+        $("#myCarousel").carousel("cycle");
+        move = true;
+      }
+  });
+
+
   /*Add smooth scroll functionality manually
     ------------------------------------------*/
     $('.slide-section').click(function(e){

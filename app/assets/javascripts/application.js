@@ -13,7 +13,6 @@
 
 //= require turbolinks
 //= require jquery
-//= require jquery_ujs
 //= require jquery.parallax
 //= require jquery-migrate-1.2.1
 //= require bootstrap.min

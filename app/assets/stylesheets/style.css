@@ -475,6 +475,13 @@ td{
   color: #222;
 }
 
+#myBtn {
+  background-color: Transparent;
+  border-radius: 30%;
+  border: 2px solid #A0A0A0 ;
+  height:64px;
+  width:64px;
+}
 
 
 /*---------------------------------------
