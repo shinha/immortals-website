@@ -34,8 +34,8 @@ body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
+  color: black;
 }
-
 
 
 
@@ -57,12 +57,10 @@ h1 {
 
 h2 {
 font-size: 30px;
-color: #000000;
 text-transform: uppercase;
 }
 
 h3 {
-  color: #000000;
 line-height: 20px;
 }
 
@@ -90,19 +88,28 @@ outline: none;
 margin-bottom: 32px;
 }
 
-#overview,
-#register {
-padding-top: 14rem;
-padding-bottom: 14rem;
+#overview{
+padding-top: 5rem;
+padding-bottom: 0rem;
 }
 
-#detail, #video,
+#register{
+padding-top: 10rem;
+padding-bottom: 10rem;
+}
+
+#video,
 #speakers, 
 #program,
 #sponsors, 
 #contact, footer {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+}
+
+#detail{
+padding-top: 1rem;
+padding-bottom: 1rem;
 }
 
 #detail,
@@ -284,7 +291,23 @@ background-color: transparent;
 /*---------------------------------------
   Intro section              
 -----------------------------------------*/
-
+#intro {
+  background: url('../assets/intro-bg.jpg') 50% 0 no-repeat fixed;
+  //-webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  /*color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+   display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+   -webkit-align-items: center;
+    -ms-flex-align: center;
+        align-items: center;
+  height: 100vh;
+  text-align: center;*/
+}
 
 #intro h3 {
 letter-spacing: 2px;
@@ -314,7 +337,7 @@ padding-bottom: 32px;
   Detail section              
 -----------------------------------------*/
 #detail {
-  background: #222;
+  background: rgb(255, 255, 255);
   color: #ffffff;
 }
 
@@ -332,6 +355,10 @@ font-size: 48px;
 border: none;
 }
 
+#video{
+background: #f1f1f1;
+}
+
 
 
 /*---------------------------------------
@@ -339,10 +366,6 @@ border: none;
 -----------------------------------------*/
 #speakers {
   background: #f9f9f9;
-}
-
-#speakers span{
-  color: rgb(56, 9, 9)
 }
 
 #speakers h3 {
@@ -376,15 +399,13 @@ height: auto;
 }
 
 th{
-  color: #000000;
-  height: 30px;
-  text-align: center; 
-  font-weight: 700;
+height: 30px;
+text-align: center;
+font-weight: 700;
 }
 
 td{
-  color:#000;
-  height:100px;
+height:100px;
 }
 
 
@@ -444,7 +465,7 @@ border: 1px solid transparent;
 border-bottom-color: #999;
 }
 .tab-content {
-padding-top: 20px;
+padding-top: 0px;
 }
 
 
@@ -452,7 +473,13 @@ padding-top: 20px;
 /*---------------------------------------
   Regsiter section              
 -----------------------------------------*/
-
+#register {
+  background: url('../assets/register-bg.jpg') 50% 0 repeat-y fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+}
 
 #register img {   
 width: 100%;
@@ -539,7 +566,7 @@ position: relative;
 display: block;
 width: 100%;
 height: 100%;
-padding: 5px 8px;
+padding: 10px 15px;
 }
 
 #faq .panel-heading .panel-title a[data-toggle="collapse"]::after {
@@ -561,6 +588,13 @@ content: "+";
 /*---------------------------------------
  Venue section              
 -----------------------------------------*/
+#venue {
+  background: url('../assets/venue-bg.jpg') 50% 0 repeat-y fixed;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
 
 #venue p {
 padding-top: 12px;
@@ -581,7 +615,11 @@ margin-top: 18px;
 /*---------------------------------------
  Contact section              
 -----------------------------------------*/
-
+#contact {
+  background: url('../assets/contact-bg.jpg') 50% 0 repeat-y fixed;
+  background-size: cover;
+  background-position: center center;
+}
 
 #contact .contact_des {
 padding-top: 3rem;
@@ -627,7 +665,7 @@ background: #f2545f;
 }
 
 .msg{
-opacity: 0.8;
+opacity: 0.87;
 }
 
 
@@ -743,7 +781,7 @@ padding: 10rem 3rem 10rem 5rem;
 }
 
 .nav-tabs > li > a {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 #program img {
@@ -767,3 +805,4 @@ padding: 10rem 3rem 10rem 5rem;
 }
 
 }
+
