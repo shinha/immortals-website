@@ -78,10 +78,14 @@ a {
   margin-bottom: 32px;
 }
 
-#overview,
-#register {
+#overview{
   padding-top: 14rem;
-  padding-bottom: 14rem;
+  padding-bottom: 0rem;
+}
+
+#register{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 #video,
@@ -89,8 +93,8 @@ a {
 #program,
 #sponsors, 
 #contact, footer {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
 }
 
 #detail{
@@ -278,11 +282,11 @@ footer {
     Intro section              
 -----------------------------------------*/
 #intro {
-    background: url('../assets/intro-bg.jpg') 50% 0 repeat-y fixed;
-    -webkit-background-size: cover;
+    background: url('../assets/intro-bg.jpg') 50% 0 no-repeat fixed;
+    //-webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
-    color: #ffffff;
+    /*color: #ffffff;
     display: -webkit-box;
     display: -webkit-flex;
      display: -ms-flexbox;
@@ -292,7 +296,7 @@ footer {
       -ms-flex-align: center;
           align-items: center;
     height: 100vh;
-    text-align: center;
+    text-align: center;*/
 }
 
 #intro h3 {
@@ -339,6 +343,10 @@ footer {
 -----------------------------------------*/
 #video iframe {
   border: none;
+}
+
+#video{
+  background: #f1f1f1;
 }
 
 
@@ -447,7 +455,7 @@ td{
   border-bottom-color: #999;
 }
 .tab-content {
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 
@@ -647,7 +655,7 @@ td{
 }
 
 .msg{
-  opacity: 0.8;
+  opacity: 0.87;
 }
 
 
