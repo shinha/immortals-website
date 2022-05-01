@@ -29,7 +29,7 @@ SECRET_KEY = os.getenv('SECRET_KEY') or 'django-insecure-vb!huysj!i8p^!0^-u#(zei
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'immortalsliondance.com', 'quiet-coast-24655.herokuapp.com', '.immortalslionsdance.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'immortalsliondance.com', 'quiet-coast-24655.herokuapp.com', '.immortalsliondance.com']
 
 
 # Application definition
