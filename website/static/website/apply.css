@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.submit-me {
+    background-color: #222;
+    bottom: 2em;
+    right: 2em;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    border: none;
+}
+
+.submit-me:hover {
+    background-color: #f2545f;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.drop-shadow {
+    box-shadow: 0px 2px 15px 0px rgb(0 0 0 / 28%);
+}
+
+@media (max-width: 576px) {
+    .drop-shadow {
+        box-shadow: none;
+    }
+}
+@media (max-width: 400px) {
+    .select-4 {
+        padding-top: 44px !important;
+        height: 80px !important;
+    }
+}
+@media (max-width: 504px) {
+    .select-3 {
+        padding-top: 44px !important;
+        height: 80px !important;
+    }
+}
+@media (max-width: 497px) {
+    .select-2 {
+        padding-top: 44px !important;
+        height: 80px !important;
+    }
+}
+@media (max-width: 426px) {
+    .select-1 {
+        padding-top: 44px !important;
+        height: 80px !important;
+    }
+}
+
+.custom-navbar {
+    background-color: #101010;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-brand {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 40px;
+    padding: 15px;
+    text-decoration: none;
+    position: relative;
+}
+.nav-brand:hover {
+    color: #ffffff;
+}
+@media (max-width: 492px) {
+    .nav-brand {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 382px) {
+    .nav-brand {
+        font-size: 1.33rem;
+    }
+}
+.return-home {
+    background-color: #222;
+    bottom: 2em;
+    right: 2em;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.return-home:hover {
+    background-color: #f2545f;
+    color: #ffffff;
+}
