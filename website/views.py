@@ -25,7 +25,10 @@ def memberentry(request):
         print('posted')
         if form.is_valid():
             print('valid')
-            form.save()
+            try:
+                form.save()
+            except Exception as e:
+                print(e)
             return redirect('thankyou')
     context = {'form': form}
     return render(request, 'website/member-entry.html', context)
