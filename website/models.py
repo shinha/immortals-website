@@ -24,7 +24,7 @@ class MemberEntry(models.Model):
     last_name = models.CharField(max_length=255)
     email = models.CharField(max_length=255)
     address1 = models.CharField(max_length=255)
-    address2 = models.CharField(max_length=255, null=True, blank=True)
+    address2 = models.CharField(max_length=255, blank=True)
     city = models.CharField(max_length=255)
     zip_code = models.CharField(max_length=255)
     dob = models.CharField(max_length=255)
@@ -32,10 +32,10 @@ class MemberEntry(models.Model):
     shirt_size = models.CharField(max_length=255)
     pant_size = models.CharField(max_length=255)
     shoe_size = models.CharField(max_length=255)
-    injuries = models.CharField(max_length=255, null=True, blank=True)
-    allergies = models.CharField(max_length=255, null=True, blank=True)
-    school = models.CharField(max_length=255, null=True, blank=True)
-    class_year = models.CharField(max_length=255, null=True, blank=True)
+    injuries = models.CharField(max_length=255, blank=True)
+    allergies = models.CharField(max_length=255, blank=True)
+    school = models.CharField(max_length=255, blank=True)
+    class_year = models.CharField(max_length=255, blank=True)
 
     def __str__(self):
         return f'{self.first_name} {self.last_name} | {self.email}'
